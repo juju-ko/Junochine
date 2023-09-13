@@ -18,7 +18,7 @@
 
 .nav-background {
 	width: 380px;
-	height: 40px;
+	height: 44px;
 	padding-left: 0%;
 	padding-right: 0%;
 	background: #451952;
@@ -37,8 +37,8 @@
 }
 
 .nav-item {
-	font-weight: bold;
-	font-size: 80%;
+	font-weight: 900;
+	font-size: 90%;
 }
 
 .nav-item.active a {
