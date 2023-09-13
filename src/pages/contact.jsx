@@ -48,7 +48,7 @@ const Contact = () => {
 							me. I welcome your feedback, questions, and
 							suggestions. If you have a specific question or
 							comment, please feel free to email me directly at
-							&nbsp;{" "}
+							&nbsp;{""}
 							<a href={`mailto:${INFO.main.email}`}>
 								{INFO.main.email}
 							</a>
