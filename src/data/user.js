@@ -7,12 +7,8 @@ const INFO = {
 	},
 
 	socials: {
-		twitter: "https://twitter.com/",
 		github: "https://github.com/",
 		linkedin: "https://linkedin.com/",
-		instagram: "https://instagram.com/",
-		stackoverflow: "https://stackoverflow.com/",
-		facebook: "https://facebook.com/",
 	},
 
 	homepage: {
@@ -35,10 +31,10 @@ const INFO = {
 
 	projects: [
 		{
-			title: "Project 1",
+			title: "Junochine.com",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
+				"Tämä verkkosivu on toteutettu Reactia ja JavaScriptia hyödyntäen. Projekti on tutkittavissa Githubissa.",
+			logo: "../react.svg",
 			linkText: "View Project",
 			link: "https://github.com",
 		},
