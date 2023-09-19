@@ -26,7 +26,7 @@ const Footer = () => {
 
 				<div className="footer-credits">
 					<div className="footer-credits-text">
-						© 2023 Junochine.
+						© 2023 Junochine
 					</div>
 				</div>
 			</div>
