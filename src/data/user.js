@@ -36,43 +36,25 @@ const INFO = {
 				"Tämä verkkosivu on toteutettu Reactia ja JavaScriptia hyödyntäen. Projekti on tutkittavissa Githubissa.",
 			logo: "../react.svg",
 			linkText: "View Project",
-			link: "https://github.com",
+			link: "https://github.com/Juno-ko/Junochine",
 		},
 
 		{
-			title: "Project 2",
+			title: "Pretty In Purple",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
+				"Gnome Shellin teeman kevyt muokkaus luotuna SCSS:llä. Teeman värit perustuvat Pretty Purple -teeman väripalettiin.",
+			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/css/css.png",
 			linkText: "View Project",
-			link: "https://github.com",
+			link: "https://github.com/Juno-ko/Pretty-In-Purple",
 		},
 
 		{
-			title: "Project 3",
+			title: "Hotellin varaussivu",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png",
-			linkText: "View Project",
-			link: "https://github.com",
-		},
-
-		{
-			title: "Project 4",
-			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
+				"Kouluprojekti, jossa loimme hotellille varaussivun. Perus HTML/CSS frontissa ja backissa RestAPI, MariaDB ja JavaScript.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
 			linkText: "View Project",
-			link: "https://github.com",
-		},
-
-		{
-			title: "Project 5",
-			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
-			linkText: "View Project",
-			link: "https://github.com",
+			link: "https://github.com/puntilateemu/JsProjekti",
 		},
 	],
 };
