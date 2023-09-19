@@ -48,6 +48,11 @@ const About = () => {
 								<div className="subtitle about-subtitle">
 									{INFO.about.description}
 								</div>
+
+								<div className="about-socials">
+									<Socials />
+								</div>
+
 							</div>
 
 							<div className="about-left-side">
@@ -59,10 +64,6 @@ const About = () => {
 											className="about-image"
 										/>
 									</div>
-								</div>
-
-								<div className="about-socials">
-									<Socials />
 								</div>
 							</div>
 						</div>

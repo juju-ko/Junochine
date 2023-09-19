@@ -15,29 +15,6 @@ import "./styles/socials.css";
 const Socials = () => {
 	return (
 		<div className="socials">
-			<div className="social">
-				<a href={INFO.socials.twitter} target="_blank" rel="noreferrer">
-					<div className="social-icon">
-						<FontAwesomeIcon
-							icon={faTwitter}
-							className="social-icon"
-						/>
-					</div>
-					<div className="social-text">Follow on Twitter</div>
-				</a>
-			</div>
-
-			<div className="social">
-				<a href={INFO.socials.github} target="_blank" rel="noreferrer">
-					<div className="social-icon">
-						<FontAwesomeIcon
-							icon={faGithub}
-							className="social-icon"
-						/>
-					</div>
-					<div className="social-text">Follow on GitHub</div>
-				</a>
-			</div>
 
 			<div className="social">
 				<a
@@ -51,25 +28,22 @@ const Socials = () => {
 							className="social-icon"
 						/>
 					</div>
-					<div className="social-text">Follow on LinkedIn</div>
+					<div className="social-text">LinkedIn</div>
 				</a>
 			</div>
 
 			<div className="social">
-				<a
-					href={INFO.socials.instagram}
-					target="_blank"
-					rel="noreferrer"
-				>
+				<a href={INFO.socials.github} target="_blank" rel="noreferrer">
 					<div className="social-icon">
 						<FontAwesomeIcon
-							icon={faInstagram}
+							icon={faGithub}
 							className="social-icon"
 						/>
 					</div>
-					<div className="social-text">Follow on Instagram</div>
+					<div className="social-text">GitHub</div>
 				</a>
 			</div>
+
 
 			<div className="email">
 				<div className="email-wrapper">
@@ -82,7 +56,7 @@ const Socials = () => {
 							<FontAwesomeIcon icon={faEnvelope} />
 						</div>
 
-						<div className="social-text">{INFO.main.email}</div>
+						<div className="social-text">Email</div>
 					</a>
 				</div>
 			</div>
