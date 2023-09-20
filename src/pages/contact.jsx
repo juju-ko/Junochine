@@ -5,6 +5,7 @@ import NavBar from "../components/common/navBar";
 import Footer from "../components/common/footer";
 import Logo from "../components/common/logo";
 import Socials from "../components/about/socials";
+import ContactForm from "../components/contact/contactForm";
 
 import INFO from "../data/user";
 import SEO from "../data/seo";
@@ -82,7 +83,7 @@ const Contact = () => {
 						</div>
 
 						<div className="subtitle contact-subtitle">
-							Tähän on tulossa lomake, jota kautta minuun saa yhteyden.
+							<ContactForm />
 						</div>
 					</div>
 
