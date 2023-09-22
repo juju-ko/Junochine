@@ -1,2 +1,6 @@
 @import "../../../data/styles.css";
 
+form {
+    display: flex;
+    flex-direction: column;
+}
