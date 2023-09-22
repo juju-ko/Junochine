@@ -1,6 +1,18 @@
 @import "../../../data/styles.css";
 
-form {
+.formFlex {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+}
+.between {
+    padding: 10px 0 0 0;
+}
+
+.fieldSize {
+    width: 50%;
+}
+
+.buttonSize {
+    width: 100px;
 }

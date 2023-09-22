@@ -1,50 +1,67 @@
-import { React, useState } from "react";
+import React from 'react';
+import { Formik, Field } from 'formik';
+import * as Yup from 'yup';
 
 import "./styles/contactForm.css";
 
-function ContactForm() {
-  const [inputs, setInputs] = useState({});
-
-  const [textarea, setTextarea] = useState(
-    "The content of a textarea goes in the value attribute"
-  );
-
-  const handleChange = (event) => {
-    const name = event.target.name;
-    const value = event.target.value;
-    setInputs(values => ({...values, [name]: value}))
-    setTextarea(event.target.value)
-  }
-
-  const handleSubmit = (event) => {
-    event.preventDefault();
-    alert(inputs);
-  }
-
-  return(
+const ContactForm = () => {
+  return (
     <div className="form">
-      <form onSubmit={handleSubmit}>
-        <label>Enter your name:
-        <input 
-          type="text" 
-          name="username" 
-          value={inputs.username || ""} 
-          onChange={handleChange}
-        />
-        </label>
-        <label>Enter your age:
-          <input 
-            type="number" 
-            name="age" 
-            value={inputs.age || ""} 
-            onChange={handleChange}
-          />
-        </label>
-        <textarea value={textarea} onChange={handleChange} />
-        <input type="submit" />
-      </form>
+      <Formik
+        initialValues={{ name: '', email: '', message: '' }}
+        validationSchema={Yup.object({
+          name: Yup.string()
+            .max(40, 'Merkkirajoitus on 40 merkkiä.')
+            .required('Vaadittu'),
+          email: Yup.string().email('Syötä oikea sähköpostiosoite').required('Vaadittu'),
+          message: Yup.string()
+            .max(500, 'Merkkiraja on 500 merkkiä.')
+            .required('Vaadittu'),
+        })}
+        onSubmit={(values, { setSubmitting }) => {
+          setTimeout(() => {
+            alert(JSON.stringify(values, null, 2));
+            setSubmitting(false);
+          }, 400);
+        }}
+      >
+        {formik => (
+          <form className="formFlex" onSubmit={formik.handleSubmit}>
+            <label htmlFor="name">Nimi</label>
+            <input
+              className="fieldSize"
+              id="name"
+              type="text"
+              {...formik.getFieldProps('name')}
+            />
+            {formik.touched.name && formik.errors.name ? (
+              <div>{formik.errors.name}</div>
+            ) : null}
+
+            <label className="between" htmlFor="email">Sähköposti</label>
+            <input className="fieldSize" id="email" type="email" {...formik.getFieldProps('email')} />
+            {formik.touched.email && formik.errors.email ? (
+              <div>{formik.errors.email}</div>
+            ) : null}
+
+            <label className="between" htmlFor="message">Viesti</label>
+            <Field
+              className="fieldSize"
+              name="message"
+              as="textarea"
+              {...formik.getFieldProps('message')}
+            />
+            {formik.touched.message && formik.errors.message ? (
+              <div>{formik.errors.message}</div>
+            ) : null}
+            <div className="between">
+              <button className="buttonSize" type="submit">Lähetä</button>
+            </div>
+          </form>
+        )}
+      </Formik>
     </div>
-  )
-}
+  );
+};
 
 export default ContactForm;
