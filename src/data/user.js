@@ -12,15 +12,15 @@ const INFO = {
 	},
 
 	homepage: {
-		title: "Lentävä yksisarvinen, jolla on voimaa muuttaa koko maailma.",
+		title: "Lentävä yksisarvinen, jolla on voimaa muuttaa koko maailma",
 		description:
-			"Olen juuri valmistunut ohjelmistokehittäjä, jolla on kokemusta C:stä, JavaScriptistä ja relaatiotietokannoista. I have experience in building scalable, secure and reliable web applications using various frameworks and technologies. I enjoy solving complex problems and learning new skills. I am passionate about creating high-quality code that follows best practices and industry standards. I am always looking for new challenges and opportunities to grow as a developer.",
+			"Hei! Tervetuloa minun verkkosivuilleni. ",
 	},
 
 	about: {
-		title: "Hei, oon Juno!",
+		title: "Tietoa minusta",
 		description:
-			"I've worked on a variety of projects over the years and I'm proud of the progress I've made. Many of these projects are open-source and available for others to explore and contribute to. If you're interested in any of the projects I've worked on, please feel free to check out the code and suggest any improvements or enhancements you might have in mind. Collaborating with others is a great way to learn and grow, and I'm always open to new ideas and feedback.",
+			"Olen kesällä 2023 valmistunut ohjelmistokehittäjä Stadin ammatti- ja aikuisopistosta. Olen koodannut nuorempana verkkosivuja HTML/CSS:llä harrastusmielessä. Koulussa mukaan osaamisalueeseeni tulivat C:llä ohjelmointi ja web-puolella JavaScript, PHP ja MariaDB. Vapaa-ajalla olen ottanut haltuun Reactia vuoden 2023 aikana muun muassa tämä sivu on toteutettu Reactilla. Minulla on pitkä historia Linuxin päivittäisestä käytöstä ja sen kanssa pelailulla. ",
 	},
 
 	projects: [

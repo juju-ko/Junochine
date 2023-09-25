@@ -79,7 +79,11 @@ const Contact = () => {
 
 					<div className="contact-container">
 						<div className="title contact-title">
-							Ota Yhteyttä
+							Yhteystiedot
+						</div>
+
+						<div className="subtitle contact-subtitle">
+							Tältä sivulta löytyvät linkit sähköpostiin ja minun oleellisimpiin sosiaalisiin medioihin. Huomaathan, että allaoleva lomake ei vielä toimi. Siihen on tulossa backend-systeemi myöhemmin.
 						</div>
 
 						<div className="subtitle contact-subtitle">
