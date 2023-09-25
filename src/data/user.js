@@ -1,20 +1,20 @@
 const INFO = {
 	main: {
 		title: "Junochine",
-		name: "Juno",
-		email: "juno-koo@pm.me",
+		name: "Joni",
+		email: "joni.vepsalainen@pm.me",
 		logo: "../logo.png",
 	},
 
 	socials: {
-		github: "https://github.com/",
-		linkedin: "https://linkedin.com/",
+		github: "https://github.com/juno-ko",
+		linkedin: "https://www.linkedin.com/in/joni-veps%C3%A4l%C3%A4inen-241035237/",
 	},
 
 	homepage: {
 		title: "Lentävä yksisarvinen, jolla on voimaa muuttaa koko maailma",
 		description:
-			"Hei! Tervetuloa minun verkkosivuilleni. ",
+			"Hei! Tervetuloa minun verkkosivuilleni. Tämä sivu on portfolio-henkinen esittely osaamisestani ja tekemistäni projekteista. Aion kehittää sivun ulkoasua ja ominaisuuksia vastaamaan oppimiani uusia teknologioita hyödyntäen ja kokeilemaan kiinnostavia juttuja. Contact-sivulle olen tällä hetkellä rakentamassa lomaketta, johon luon backendin node.js:lla ja tietokannalla. Alta löytyvät linkit linkkariin, githubiin ja sähköpostiini. Laita ihmeessä viestiä!",
 	},
 
 	about: {
