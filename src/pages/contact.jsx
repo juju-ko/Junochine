@@ -79,13 +79,12 @@ const Contact = () => {
 
 					<div className="contact-container">
 						<div className="title contact-title">
-							Yhteystiedot
+							Yhteydenotto
 						</div>
 
 						<div className="subtitle contact-subtitle">
-							Tältä sivulta löytyvät linkit sähköpostiin ja minun oleellisimpiin sosiaalisiin medioihin. Huomaathan, että allaoleva lomake ei vielä toimi. Siihen on tulossa backend-systeemi myöhemmin.
+							Sivulta löydät linkit minulle sähköpostitse sekä tärkeimpiin sosiaalisen median profiileihini. On hyvä huomioida, että alla oleva yhteydenottolomake ei ole vielä toiminnassa, mutta siihen on suunnitteilla taustajärjestelmä myöhemmin. Haluan varmistaa, että voimme pysyä yhteydessä, joten ota rohkeasti yhteyttä sähköpostitse tai seuraa minua sosiaalisessa mediassa.
 						</div>
-
 						<div className="subtitle contact-subtitle">
 							<ContactForm />
 						</div>
