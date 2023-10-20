@@ -14,7 +14,7 @@ const INFO = {
 	homepage: {
 		title: "Lentävä yksisarvinen, jolla on voimaa muuttaa koko maailma",
 		description:
-			"Hei! Tervetuloa minun verkkosivuilleni. Tämä sivu on portfolio-henkinen esittely osaamisestani ja tekemistäni projekteista. Aion kehittää sivun ulkoasua ja ominaisuuksia vastaamaan oppimiani uusia teknologioita hyödyntäen ja kokeilemaan kiinnostavia juttuja. Contact-sivulle olen tällä hetkellä rakentamassa lomaketta, johon luon backendin node.js:lla ja tietokannalla. Alta löytyvät linkit linkkariin, githubiin ja sähköpostiini. Laita ihmeessä viestiä!",
+			"Hei! Tervetuloa minun verkkosivuilleni. Tämä sivu on portfolio-henkinen esittely osaamisestani ja tekemistäni projekteista. Aion kehittää sivun ulkoasua ja ominaisuuksia vastaamaan oppimiani uusia teknologioita hyödyntäen ja kokeilemaan kiinnostavia juttuja. Contact-sivulle olen tällä hetkellä rakentamassa lomaketta, johon luon backendin Node.js:lla ja MariaDB-tietokannalla. Alta löytyvät linkit LinkedIniin, GitHubiin ja sähköpostiini. Laita ihmeessä viestiä!",
 	},
 
 	about: {
@@ -29,6 +29,15 @@ const INFO = {
 			description:
 				"Tämä verkkosivu on toteutettu Reactia ja JavaScriptia hyödyntäen. Projekti on tutkittavissa Githubissa.",
 			logo: "../react.svg",
+			linkText: "View Project",
+			link: "https://github.com/Juno-ko/Junochine",
+		},
+
+		{
+			title: "To-dododo",
+			description:
+				"To do-sovellus javalla toteutettuna. Tämä projekti mahdollistaa käyttäjien luoda, hallita ja merkitä tehtäviä suoritetuiksi.",
+			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/java/java.png",
 			linkText: "View Project",
 			link: "https://github.com/Juno-ko/Junochine",
 		},
