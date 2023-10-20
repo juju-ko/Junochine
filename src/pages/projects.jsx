@@ -77,11 +77,11 @@ const Projects = () => {
 					</div>
 					<div className="projects-container">
 						<div className="title projects-title">
-							Minun projektit
+							{INFO.projectspage.title}
 						</div>
 
 						<div className="subtitle projects-subtitle">
-							Alle on kasattu muutama esimerkki projekteista, joissa olen ollut mukana. Minun Githubista löytyy lisää esimerkkejä minun tekeleistäni. Linkki Github-sivulle löytyy Contact-sivulta.
+							{INFO.projectspage.description}
 						</div>
 
 						<div className="projects-list">

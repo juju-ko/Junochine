@@ -14,13 +14,19 @@ const INFO = {
 	homepage: {
 		title: "Lentävä yksisarvinen, jolla on voimaa muuttaa koko maailma",
 		description:
-			"Hei! Tervetuloa minun verkkosivuilleni. Tämä sivu on portfolio-henkinen esittely osaamisestani ja tekemistäni projekteista. Aion kehittää sivun ulkoasua ja ominaisuuksia vastaamaan oppimiani uusia teknologioita hyödyntäen ja kokeilemaan kiinnostavia juttuja. Contact-sivulle olen tällä hetkellä rakentamassa lomaketta, johon luon backendin Node.js:lla ja MariaDB-tietokannalla. Alta löytyvät linkit LinkedIniin, GitHubiin ja sähköpostiini. Laita ihmeessä viestiä!",
+			"Tervetuloa verkkosivuilleni! Tämä sivusto toimii portfolio-henkisenä esittelynä osaamisestani ja aikaisemmista projekteistani. Suunnitelmissani on päivittää sivuston ulkoasua ja lisätä uusia ominaisuuksia hyödyntäen hiljattain oppimiani tekniikoita ja kokeilemalla kiinnostavia ideoita. Lisäksi työstän parhaillaan Contact-sivulle lomaketta, jossa taustalla toimii Node.js ja MariaDB-tietokanta. Alapuolelta löydät linkit LinkedIn-profiiliini, GitHub-tiliini ja voit myös ottaa yhteyttä sähköpostitse. Älä epäröi ottaa yhteyttä – odotan innolla viestejäsi!",
 	},
 
 	about: {
 		title: "Tietoa minusta",
 		description:
-			"Olen kesällä 2023 valmistunut ohjelmistokehittäjä Stadin ammatti- ja aikuisopistosta. Olen koodannut nuorempana verkkosivuja HTML/CSS:llä harrastusmielessä. Koulussa mukaan osaamisalueeseeni tulivat C:llä ohjelmointi ja web-puolella JavaScript, PHP ja MariaDB. Vapaa-ajalla olen ottanut haltuun Reactia vuoden 2023 aikana muun muassa tämä sivu on toteutettu Reactilla. Minulla on pitkä historia Linuxin päivittäisestä käytöstä ja sen kanssa pelailulla. ",
+			"Olen vastavalmistunut ohjelmistokehittäjä, ja valmistuin Stadin ammatti- ja aikuisopistosta kesällä 2023. Nuorempana harrastin verkkosivujen koodaamista HTML/CSS:llä, mutta koulun aikana laajensin osaamisalueitani merkittävästi. Sain perustiedot C-ohjelmoinnista ja web-kehityksessä perehdyin JavaScriptiin, PHP:hen ja MariaDB:hen. Kuluvan vuoden aikana olen myös opiskellut Javaa, ja vapaa-ajallani olen syventynyt Reactiin. Esimerkiksi tämä sivusto on toteutettu Reactilla. Lisäksi minulla on vankka kokemus Linuxin päivittäisestä käytöstä ja sen kanssa kokeiluista, mikä on rikastuttanut teknistä osaamistani.",
+	},
+
+	projectspage: {
+		title: "Projektit",
+		description:
+			"Tässä on muutamia esimerkkejä projekteista, joihin olen osallistunut. Voit löytää lisää esimerkkejä ja näytteitä työstäni GitHub-tililtäni, ja linkin GitHub-sivulleni löydät Contact-sivultani. Siellä voit tutustua laajemmin projekteihini ja työnäytteisiini.",
 	},
 
 	projects: [
