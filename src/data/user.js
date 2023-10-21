@@ -29,6 +29,12 @@ const INFO = {
 			"Tässä on muutamia esimerkkejä projekteista, joihin olen osallistunut. Voit löytää lisää esimerkkejä ja näytteitä työstäni GitHub-tililtäni, ja linkin GitHub-sivulleni löydät Contact-sivultani. Siellä voit tutustua laajemmin projekteihini ja työnäytteisiini.",
 	},
 
+	contact: {
+		title: "Yhteydenotto",
+		description:
+			"Sivulta löydät linkit minulle sähköpostitse sekä tärkeimpiin sosiaalisen median profiileihini. On hyvä huomioida, että alla oleva yhteydenottolomake ei ole vielä toiminnassa, mutta siihen on suunnitteilla taustajärjestelmä myöhemmin. Haluan varmistaa, että voimme pysyä yhteydessä, joten ota rohkeasti yhteyttä sähköpostitse tai seuraa minua sosiaalisessa mediassa.",
+	},
+
 	projects: [
 		{
 			title: "Junochine.com",
