@@ -1,14 +1,11 @@
 const INFO = {
 	main: {
 		title: "Junochine",
-		name: "Joni",
-		email: "joni.vepsalainen@pm.me",
 		logo: "../logo.png",
 	},
 
 	socials: {
 		github: "https://github.com/juno-ko",
-		linkedin: "https://www.linkedin.com/in/joni-veps%C3%A4l%C3%A4inen-241035237/",
 	},
 
 	homepage: {
